@@ -1,0 +1,126 @@
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+@import "modal-window.css";
+@import "catalog-menu.css";
+@import "registration.css";
+
+
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+
+.wrapper {
+    max-width: 100%;
+}
+
+.container {
+    width: 94.27%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Gotham Pro',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #222222;
+}
+
+h2 {
+    font-family: 'Gotham Pro',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    color: #222222;
+}
+
+h3 {
+    font-family: 'Gotham Pro',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222222;
+}
+
+h4 {
+    font-family: 'Gotham Pro',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #555555;
+}
+
+p {
+    font-family: 'Gotham Pro',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    color: #222222;
+}
+
+a {
+    font-family: 'Gotham Pro',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #222222;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('/fonts/GothamPro-Black.woff2') format('woff2'),
+    url('/fonts/GothamPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('/fonts/GothamPro-Medium.woff2') format('woff2'),
+    url('/fonts/GothamPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('/fonts/GothamPro-Bold.woff2') format('woff2'),
+    url('/fonts/GothamPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('/fonts/GothamPro.woff2') format('woff2'),
+    url('/fonts/GothamPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('/fonts/GothamPro-Light.woff2') format('woff2'),
+    url('/fonts/GothamPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

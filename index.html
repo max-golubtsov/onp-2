@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title>trlm</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/slider.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<div class="modal-window">
+    <div class="modal-window__body">
+        <div class="menu-container">
+            <div class="catalog-menu ">
+                <div class="catalog-menu__content">
+                    <div class="catalog-menu__content-column">
+                        <div class="catalog-menu__section">
+                            <div class="catalog-menu__title">
+                                <h5>РАСХОДНЫЕ ЖИДКОСТИ</h5>
+                                <button class="catalog-menu__btn">Все</button>
+                            </div>
+                            <a href="">Тормозные жидкости</a>
+                            <a href="">Охлаждающие жидкости</a>
+                            <a href="">Стеклоомывающие жидкости</a>
+                            <a href="">Мочевина</a>
+                        </div>
+                        <div class="catalog-menu__section">
+                            <div class="catalog-menu__title">
+                                <h5>РАСХОДНЫЕ МАТЕРИАЛЫ</h5>
+                                <button class="catalog-menu__btn">Все</button>
+                            </div>
+                            <a href="">Лампы</a>
+                            <a href="">Свечи</a>
+                            <a href="">Тормозные колодки</a>
+                            <a href="">Предохранители</a>
+                        </div>
+                        <div class="catalog-menu__section">
+                            <div class="catalog-menu__title">
+                                <h5>АКСЕССУАРЫ</h5>
+                                <button class="catalog-menu__btn">Все</button>
+                            </div>
+                            <a href="">Ароматизаторы</a>
+                            <a href="">Салфетки</a>
+                            <a href="">Герметики, герметик-прокладки</a>
+                            <a href="">Ткани и губки</a>
+                        </div>
+                    </div>
+                    <div class="catalog-menu__content-column">
+                        <div class="catalog-menu__section">
+                            <div class="catalog-menu__title">
+                                <h5>МАСЛА</h5>
+                                <button class="catalog-menu__btn">Все</button>
+                            </div>
+                            <a href="">Моторные</a>
+                            <a href="">Трансмиcсионные</a>
+                            <a href="">Промывочные</a>
+                            <a href="">Мотомасла и спец. продукты</a>
+                        </div>
+                        <div class="catalog-menu__section">
+                            <div class="catalog-menu__title">
+                                <h5>ЩЕТКИ СТЕКЛООЧИСТИТЕЛЯ</h5>
+                                <button class="catalog-menu__btn">Все</button>
+                            </div>
+                            <a href="">Каркасные</a>
+                            <a href="">Гибридные</a>
+                            <a href="">Бескаркасные</a>
+                        </div>
+                        <div class="catalog-menu__section">
+                            <div class="catalog-menu__title">
+                                <h5>СМАЗКИ</h5>
+                                <button class="catalog-menu__btn">Все</button>
+                            </div>
+                            <a href="">Двухкомпонентные</a>
+                            <a href="">ГОСТовские (литол, солидол и пр.)</a>
+                            <a href="">Высокотемпературные</a>
+                            <a href="">Специальные</a>
+                        </div>
+                    </div>
+                    <div class="catalog-menu__content-column">
+                        <div class="catalog-menu__section">
+                            <div class="catalog-menu__title">
+                                <h5>АККУМУЛЯТОРЫ</h5>
+                                <button class="catalog-menu__btn">Все</button>
+                            </div>
+                            <a href="">Для легковых автомобилей</a>
+                            <a href="">Для грузовых автомобилей</a>
+                            <a href="">Аккумуляторы AGM</a>
+                        </div>
+                        <div class="catalog-menu__section">
+                            <div class="catalog-menu__title">
+                                <h5>ФИЛЬТРЫ</h5>
+                                <button class="catalog-menu__btn">Все</button>
+                            </div>
+                            <a href="">Масляные</a>
+                            <a href="">Воздушные</a>
+                            <a href="">Топливные</a>
+                            <a href="">Салонные</a>
+                        </div>
+                        <div class="catalog-menu__section">
+                            <div class="catalog-menu__title">
+                                <h5>МОЙКА АВТО И КЛИНИНГ</h5>
+                                <button class="catalog-menu__btn">Все</button>
+                            </div>
+                            <a href="">Ткани для протирки</a>
+                            <a href="">Аппараты высокого давления</a>
+                            <a href="">Пылесосы</a>
+                            <a href="">Химия для мойки автомобиля</a>
+                        </div>
+                    </div>
+                    <div class="catalog-menu__content-column">
+                        <div class="catalog-menu__section">
+                            <div class="catalog-menu__title">
+                                <h5>ОБЩЕХОЗЯЙСТВЕННЫЕ ТОВАРЫ</h5>
+                                <button class="catalog-menu__btn">Все</button>
+                            </div>
+                            <a href="">Батарейки</a>
+                            <a href="">Дистиллированная вода</a>
+                            <a href="">Клеи и фиксаторы</a>
+                            <a href="">Лаки и краски</a>
+                        </div>
+                        <div class="catalog-menu__section">
+                            <div class="catalog-menu__title">
+                                <h5>АВТОКОСМЕТИКА</h5>
+                                <button class="catalog-menu__btn">Все</button>
+                            </div>
+                            <a href="">Очистители кузова</a>
+                            <a href="">Полироли кузова</a>
+                            <a href="">Очистители стекол</a>
+                            <a href="">Предохранители</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="selection-buttons">
+                    <button class="btn-selection">Подбор запчастей</button>
+                    <div class="selection-buttons__image-btn">
+                        <img src="img/tires.jpg">
+                        <p>Подбор <br> шин и дисков</p>
+                    </div>
+                    <div class="selection-buttons__image-btn">
+                        <img src="img/battery.jpg">
+                        <p>Подбор<br>АКБ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-menu-tablet-mobile">
+                <div class="dropdown">
+                    <div class="dropdown-label">
+                        <h5>РАСХОДНЫЕ ЖИДКОСТИ</h5>
+                        <img src="img/arrow-bottom.svg">
+                    </div>
+                    <div class="dropdown-menu">
+                        <ul class="submenu">
+                            <li><a href="/">Тормозные жидкости</a></li>
+                            <li><a href="/">Охлаждающие жидкости</a></li>
+                            <li><a href="/">Стеклоомывающие жидкости</a></li>
+                            <li><a href="/">Мочевина</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown-label">
+                        <h5>РАСХОДНЫЕ МАТЕРИАЛЫ</h5>
+                        <img src="img/arrow-bottom.svg">
+                    </div>
+                    <div class="dropdown-menu">
+                        <ul class="submenu">
+                            <li><a href="/">Лампы</a></li>
+                            <li><a href="/">Свечи</a></li>
+                            <li><a href="/">Тормозные колодки</a></li>
+                            <li><a href="/">Предохранители</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown-label">
+                        <h5>АКСЕССУАРЫ</h5>
+                        <img src="img/arrow-bottom.svg">
+                    </div>
+                    <div class="dropdown-menu">
+                        <ul class="submenu">
+                            <li><a href="/">Ароматизаторы</a></li>
+                            <li><a href="/">Салфетки</a></li>
+                            <li><a href="/">Герметики, герметик-прокладки</a></li>
+                            <li><a href="/">Ткани и губки</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown-label">
+                        <h5>МАСЛА</h5>
+                        <img src="img/arrow-bottom.svg">
+                    </div>
+                    <div class="dropdown-menu">
+                        <ul class="submenu">
+                            <li><a href="/">Моторные</a></li>
+                            <li><a href="/">Трансмиcсионные</a></li>
+                            <li><a href="/">Промывочные</a></li>
+                            <li><a href="/">Мотомасла и спец. продукты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown-label">
+                        <h5>ЩЕТКИ СТЕКЛООЧИСТИТЕЛЯ</h5>
+                        <img src="img/arrow-bottom.svg">
+                    </div>
+                    <div class="dropdown-menu">
+                        <ul class="submenu">
+                            <li><a href="/">Каркасные</a></li>
+                            <li><a href="/">Гибридные</a></li>
+                            <li><a href="/">Бескаркасные</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown-label">
+                        <h5>СМАЗКИ</h5>
+                        <img src="img/arrow-bottom.svg">
+                    </div>
+                    <div class="dropdown-menu">
+                        <ul class="submenu">
+                            <li><a href="/">Двухкомпонентные</a></li>
+                            <li><a href="/">ГОСТовские (литол, солидол и пр.)</a></li>
+                            <li><a href="/">Высокотемпературные</a></li>
+                            <li><a href="/">Специальные</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown-label">
+                        <h5>АККУМУЛЯТОРЫ</h5>
+                        <img src="img/arrow-bottom.svg">
+                    </div>
+                    <div class="dropdown-menu">
+                        <ul class="submenu">
+                            <li><a href="/">Для легковых автомобилей</a></li>
+                            <li><a href="/">Для грузовых автомобилей</a></li>
+                            <li><a href="/">Аккумуляторы AGM</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown-label">
+                        <h5>ФИЛЬТРЫ</h5>
+                        <img src="img/arrow-bottom.svg">
+                    </div>
+                    <div class="dropdown-menu">
+                        <ul class="submenu">
+                            <li><a href="/">Масляные</a></li>
+                            <li><a href="/">Воздушные</a></li>
+                            <li><a href="/">Топливные</a></li>
+                            <li><a href="/">Салонные</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown-label">
+                        <h5>МОЙКА АВТО И КЛИНИНГ</h5>
+                        <img src="img/arrow-bottom.svg">
+                    </div>
+                    <div class="dropdown-menu">
+                        <ul class="submenu">
+                            <li><a href="/">Ткани для протирки</a></li>
+                            <li><a href="/">Аппараты высокого давления</a></li>
+                            <li><a href="/">Пылесосы</a></li>
+                            <li><a href="/">Химия для мойки автомобиля</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown-label">
+                        <h5>ОБЩЕХОЗЯЙСТВЕННЫЕ ТОВАРЫ</h5>
+                        <img src="img/arrow-bottom.svg">
+                    </div>
+                    <div class="dropdown-menu">
+                        <ul class="submenu">
+                            <li><a href="/">Батарейки</a></li>
+                            <li><a href="/">Дистиллированная вода</a></li>
+                            <li><a href="/">Клеи и фиксаторы</a></li>
+                            <li><a href="/">Лаки и краски</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown-label">
+                        <h5>АВТОКОСМЕТИКА</h5>
+                        <img src="img/arrow-bottom.svg">
+                    </div>
+                    <div class="dropdown-menu">
+                        <ul class="submenu">
+                            <li><a href="/">Очистители кузова</a></li>
+                            <li><a href="/">Полироли кузова</a></li>
+                            <li><a href="/">Очистители стекол</a></li>
+                            <li><a href="/">Предохранители</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="registration">
+            <div class="registration__content">
+                <h2>Вход на сайт</h2>
+                <form class="user-input">
+                    <input type="text" class="user-input__line" placeholder="Телефон">
+                    <a href="/">Использвать e-mail</a>
+                    <input type="text" class="user-input__line" placeholder="Пароль">
+                    <a href="/">Забыли пароль</a>
+                    <button type="submit">Войти</button>
+                    <a href="/">Регистрация</a>
+                </form>
+            </div>
+            <button class="button-close">закрыть</button>
+        </div>
+    </div>
+</div>
+<div class="wrapper">
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html"><img class="logo-img" src="img/logo.jpg" alt="logo"></a>
+            <div class="navigation-menu">
+                <select class="city-selection">
+                    <option class="city-selection__option">Малиновского</option>
+                </select>
+                <button class="button-catalog desktop">
+                    <div class="button-catalog__hamburger">
+                        <div class="button-catalog__line"></div>
+                        <div class="button-catalog__line"></div>
+                        <div class="button-catalog__line"></div>
+                    </div>
+                    Каталог
+                </button>
+            </div>
+            <div class="header-common-menu">
+                <div class="header-common-menu__top-line">
+                    <a href="tel:88005501980" class="tel-number">8-800-550-19-80</a>
+                    <nav class="nav-menu">
+                        <a href="#" class="nav-menu__item">Подбор запчастей</a>
+                        <a href="#" class="nav-menu__item">Доставка</a>
+                        <a href="#" class="nav-menu__item">Как купить</a>
+                        <a href="#" class="nav-menu__item">Оплата</a>
+                        <a href="#" class="nav-menu__item">Акции</a>
+                        <a href="#" class="nav-menu__item">Контакты</a>
+                    </nav>
+                    <div class="user-profile">
+                        <div class="user-profile__enter">
+                            <img class="user-profile__image-enter" src="img/user-image.svg">
+                            <button class="user-profile__button">Вход</button>
+                        </div>
+                        <div class="user-profile__basket">
+                            <img class="user-profile__image-basket" src="img/basket-image.svg">
+                            <button class="user-profile__button">Корзина</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="search">
+                    <img src="img/Search.svg" alt="search" class="search__image">
+                    <input type="text" class="internal-search" id="internal-search" placeholder="Что ищите?">
+                </div>
+            </div>
+        </div>
+        <nav class="nav-menu-min-px">
+            <a href="#" class="nav-menu__item">Подбор запчастей</a>
+            <a href="#" class="nav-menu__item">Доставка</a>
+            <a href="#" class="nav-menu__item">Как купить</a>
+            <a href="#" class="nav-menu__item">Оплата</a>
+            <a href="#" class="nav-menu__item">Акции</a>
+            <a href="#" class="nav-menu__item">Контакты</a>
+        </nav>
+        <div class="header-tablet-size">
+            <div class="header-tablet-size__top-line">
+                <button class="menu-hamburger">
+                    <div class="menu-hamburger__column">
+                        <div class="menu-hamburger__line"></div>
+                        <div class="menu-hamburger__line"></div>
+                        <div class="menu-hamburger__line"></div>
+                    </div>
+                    trlm.ru
+                </button>
+                <select class="city-selection">
+                    <option class="city-selection__option">Малиновского</option>
+                </select>
+                <div class="user-profile">
+                    <div class="user-profile__enter">
+                        <img class="user-profile__image-enter" src="img/user-image.svg">
+                        <button class="user-profile__button">Вход</button>
+                    </div>
+                    <div class="user-profile__basket">
+                        <img class="user-profile__image-basket" src="img/basket-image.svg">
+                        <button class="user-profile__button">Корзина</button>
+                    </div>
+                </div>
+            </div>
+            <div class="header-tablet-size__bottom-line">
+                <button class="button-catalog tablet">
+                    <div class="button-catalog__hamburger">
+                        <div class="button-catalog__line"></div>
+                        <div class="button-catalog__line"></div>
+                        <div class="button-catalog__line"></div>
+                    </div>
+                    Каталог
+                </button>
+                <div class="search-tablet">
+                    <img src="img/Search.svg" alt="search" class="search__image-tablet">
+                    <input type="text" class="internal-search-tablet" id="internal-search-tablet"
+                           placeholder="Что ищите?">
+                </div>
+                <a href="tel:88005501980" class="tel-number">8-800-550-19-80</a>
+            </div>
+        </div>
+        <div class="header-mobile-size">
+            <div class="header-mobile-size__top-line">
+                <button class="menu-hamburger">
+                    <div class="menu-hamburger__column">
+                        <div class="menu-hamburger__line"></div>
+                        <div class="menu-hamburger__line"></div>
+                        <div class="menu-hamburger__line"></div>
+                    </div>
+                    trlm.ru
+                </button>
+                <div class="icon-item">
+                    <img src="img/Search.svg" alt="search" class="search__image-tablet">
+                    <img class="user-profile__image-enter" src="img/user-image.svg">
+                    <img class="user-profile__image-basket" src="img/basket-image.svg">
+                </div>
+            </div>
+            <div class="header-mobile-size__middle-line">
+                <select class="city-selection-mobile">
+                    <option class="city-selection__option-mobile">Малиновского</option>
+                </select>
+                <a href="tel:88005501980" class="tel-number">8-800-550-19-80</a>
+            </div>
+            <div class="header-mobile-size__bottom-line">
+                <button class="button-catalog mobile">
+                    <div class="button-catalog__hamburger">
+                        <div class="button-catalog__line"></div>
+                        <div class="button-catalog__line"></div>
+                        <div class="button-catalog__line"></div>
+                    </div>
+                    Каталог
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main-container">
+            <div class="slider">
+                <div class="slider__scroll">
+                    <div class="slider__slide">
+                        <img class="slider__image" src="img/slider-one.jpg" alt="slider">
+                        <div class="slider__content">
+                            <div class="slider__content-section">
+                                <img class="champion-img" src="img/champion.jpg">
+                                <h1 class="super-h1">Фильтр масла<br> в подарок</h1>
+                                <h1 class="super-h1-mobile">Фильтр <br> масла<br> в подарок</h1>
+                                <span>подробнее</span>
+                            </div>
+                            <img class="canister" src="img/canister.png">
+                            <img class="canister-mobile" src="img/canister-mobile.png">
+                            <h1 class="super-text">New Energy</h1>
+                        </div>
+                    </div>
+                    <img class="slider__image" src="img/slider-two.jpg" alt="slider">
+                    <img class="slider__image" src="img/slider-three.jpg" alt="slider">
+                </div>
+                <div class="arrows">
+                    <img src="img/vector-left.png" class="left-arrow" id="left-arrow">
+                    <img src="img/vector-right.png" class="right-arrow arrow-active" id="right-arrow">
+                </div>
+                <div class="information-menu information-menu-size">
+                    <div class="information-menu__section">
+                        <div class="counter"></div>
+                        <div class="information-menu__content">
+                            <h3>Бесплатный звонок</h3>
+                            <p>На любые номера РФ</p>
+                            <a href="tel:88005501980" class="information-menu__tel-number">
+                                8 800 550-19-80</a>
+                            <button class="information-menu__button whatsapp-style">
+                                <img src="img/whatsapp.svg">
+                                +79281078080
+                            </button>
+                        </div>
+                    </div>
+                    <div class="information-menu__section">
+                        <div class="counter"></div>
+                        <div class="information-menu__content">
+                            <h3>Бесплатный подбор</h3>
+                            <p>Мы найдем самую низкую цену на оригинальную запчасть,
+                                достойную альтернативу или самый дешевый аналог.</p>
+                            <button class="information-menu__button">
+                                Заявка на подбор
+                            </button>
+                        </div>
+                    </div>
+                    <div class="information-menu__section">
+                        <div class="counter"></div>
+                        <div class="information-menu__content">
+                            <h3>Бесплатная доставка</h3>
+                            <p>Согласуем и привезём запчасти в офис или <br> домой
+                                в удобное для Вас время.</p>
+                            <button class="information-menu__button">
+                                Пункты выдачи
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="information-menu-tablet">
+                    <div class="information-menu-tablet__section">
+                        <div class="information-menu-tablet__content">
+                            <h3>Бесплатный звонок</h3>
+                            <p>На любые номера РФ</p>
+                            <a href="tel:88005501980" class="information-menu__tel-number">
+                                8 800 550-19-80</a>
+                        </div>
+                        <button class="information-menu__button whatsapp-style ">
+                            <img src="img/whatsapp.svg">
+                            +79281078080
+                        </button>
+                    </div>
+                    <div class="information-menu-tablet__section">
+                        <div class="information-menu-tablet__content">
+                            <h3>Бесплатный подбор</h3>
+                            <p>Мы найдем самую низкую цену
+                                на оригинальную запчасть,
+                                достойную альтернативу или самый дешевый аналог.</p>
+                        </div>
+                        <button class="information-menu__button ">
+                            Заявка на подбор
+                        </button>
+                    </div>
+                    <div class="information-menu-tablet__section">
+                        <div class="information-menu-tablet__content">
+                            <h3>Бесплатная доставка</h3>
+                            <p>Согласуем и привезём запчасти в
+                                офис или домой в удобное для Вас время.</p>
+                        </div>
+                        <button class="information-menu__button ">
+                            Пункты выдачи
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="pictures-content">
+                <img class="pictures-content__img" src="img/awm-img.jpg">
+                <img class="pictures-content__img-max-width" src="img/dot-img.jpg">
+            </div>
+            <div class="pictures-content-small">
+                <img src="img/small-awm.jpg">
+                <img src="img/small-dot.jpg">
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <nav class="full-menu">
+                <a href="/" class="full-menu__item">Подбор запчастей</a>
+                <a href="/" class="full-menu__item">Доставка</a>
+                <a href="/" class="full-menu__item">Как купить</a>
+                <a href="/" class="full-menu__item">Оплата</a>
+                <a href="/" class="full-menu__item">Договор оферты</a>
+                <a href="/" class="full-menu__item">Политика конфидециальности</a>
+                <a href="/" class="full-menu__item">Реквизиты</a>
+                <a href="/" class="full-menu__item">Контакты</a>
+                <a href="/" class="full-menu__item">Акции</a>
+            </nav>
+            <div class="media">
+                <div class="media__icon">
+                    <a href="/"><img class="icon-media__item" src="img/vkontakte.svg"></a>
+                    <a href="/"><img class="icon-media__item" src="img/whatsapp-icon.svg"></a>
+                    <a href="/"><img class="icon-media__item" src="img/instagram.svg"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
